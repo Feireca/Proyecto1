@@ -1,0 +1,81 @@
+body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue";
+}
+
+#imagen {
+    background: url("../img/imagen.jpg") no-repeat center center scroll;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    position: relative;
+}
+
+.center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.center h1{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#home {
+    background-color: #1b6d85;
+    height: 500px;
+}
+
+#frase {
+    height: 25%;
+    background-color: #ffffff;
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+#frase h3 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150%;
+}
+
+#opciones {
+    height: 65%;
+}
+
+.chiquito{
+    font-size: 20px;
+}
+
+.blanco {
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+    display: table;
+    position: relative;
+}
+
+.redes{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#opciones #titulo {
+    background-color: #d43f3a;
+    height: 15%;
+}
+
+#opciones .op {
+    background-color: #2b542c;
+    height: 85%;
+    width: 33.33333333333333%;
+    border: 1px solid white;
+    float: left;
+}
