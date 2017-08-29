@@ -47,6 +47,8 @@ body {
 
 #opciones {
     height: 65%;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
 .chiquito{
@@ -68,14 +70,63 @@ body {
 }
 
 #opciones #titulo {
-    background-color: #d43f3a;
-    height: 15%;
+    height: 35%;
 }
 
 #opciones .op {
-    background-color: #2b542c;
-    height: 85%;
+    height: 65%;
     width: 33.33333333333333%;
-    border: 1px solid white;
     float: left;
+    display: table;
+    position: relative;
+}
+
+#titulo {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+#opciones #titulo h2 {
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#opciones .op .opc {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+
+#opciones .op .opc:hover {
+    animation: bounce 1.5s;
+    cursor: pointer;
+}
+
+#opciones .op .opc h4 {
+    color: white;
+}
+
+#opciones #titulo .star {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 4px;
+    border-radius: 32px;
+}
+
+#opciones #titulo .star:after {
+    font-family: FontAwesome;
+    font-size: 20px;
+    position: relative;
+    top: -1.1em;
+    display: inline-block;
+    padding: 0 .25em;
+    font-weight: bold;
+    content: '\00003C' '\000020' '\00002F' '\000020' '\00003E';
+    background-color: #1b6d85;
 }
