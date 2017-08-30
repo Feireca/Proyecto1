@@ -2,6 +2,13 @@ body {
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue";
 }
 
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
 #imagen {
     background: url("../img/imagen.jpg") no-repeat center center scroll;
     width: 100%;
@@ -133,20 +140,92 @@ body {
 
 #trabajo {
     width: 100%;
-    background-color: #2b542c;
+    text-align: center;
 }
 
 #estudio {
     width: 100%;
-    background-color: #d43f3a;
+    background-color: #1b6d85;
+    color: white;
+    text-align: center;
 }
 
 #familia {
     width: 100%;
-    background-color: #0f0f0f;
+    text-align: center;
 }
 
 #yo {
     width: 100%;
     background-color: #2e6da4;
+}
+
+.absolute {
+    position: fixed;
+    display: inline-flex;
+    width:100%;
+    background-color: #1b6d85;
+    z-index:2;
+}
+
+.derecha {
+    float: right;
+}
+
+.foto {
+    width: 50%;
+    height: 50%;
+    display: table;
+    position: relative;
+    z-index: -1;
+    left: 25%;
+}
+
+.white {
+    color: white !important;
+}
+
+.img {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.redonda {
+    border-radius: 100%;
+    border: 2px dashed #1b6d85;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.parrafo-centrado {
+    text-align: center;
+}
+
+.descripcion {
+    margin-top: -1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.7;
+    font-size: initial;
+}
+
+#estudio .descripcion a {
+    color: white;
+}
+
+#estudio .descripcion a:hover {
+    color: #e5e5e5;
+    cursor:pointer;
+}
+
+#estudio .foto {
+    width: 50%;
+    height: 50%;
+    display: table;
+    position: relative;
+    z-index: 1 !important;
+    left: 25%;
 }
